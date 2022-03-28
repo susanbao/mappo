@@ -19,6 +19,8 @@ class MPERunner(Runner):
         start = time.time()
         episodes = int(self.num_env_steps) // self.episode_length // self.n_rollout_threads
 
+        averageReward = []
+        print("Starting iterations...")
         for episode in range(episodes):
             if self.use_linear_lr_decay:
                 self.trainer.policy.lr_decay(episode, episodes)
@@ -46,18 +48,10 @@ class MPERunner(Runner):
             if (episode % self.save_interval == 0 or episode == episodes - 1):
                 self.save()
 
+            averageReward.append(np.sum(self.buffer.rewards) / self.n_rollout_threads)
             # log information
-            if episode % self.log_interval == 0:
+            if len(averageReward) % self.log_interval == 0:
                 end = time.time()
-                print("\n Scenario {} Algo {} Exp {} updates {}/{} episodes, total num timesteps {}/{}, FPS {}.\n"
-                        .format(self.all_args.scenario_name,
-                                self.algorithm_name,
-                                self.experiment_name,
-                                episode,
-                                episodes,
-                                total_num_steps,
-                                self.num_env_steps,
-                                int(total_num_steps / (end - start))))
 
                 if self.env_name == "MPE":
                     env_infos = {}
@@ -69,8 +63,10 @@ class MPERunner(Runner):
                         agent_k = 'agent%i/individual_rewards' % agent_id
                         env_infos[agent_k] = idv_rews
 
-                train_infos["average_episode_rewards"] = np.mean(self.buffer.rewards) * self.episode_length
-                print("average episode rewards is {}".format(train_infos["average_episode_rewards"]))
+                train_infos["average_episode_rewards"] = np.mean(averageReward[-self.log_interval:])
+                #print("average episode rewards is {}".format(train_infos["average_episode_rewards"]))
+                print("steps: {}, episodes: {}, mean episode reward: {}, time: {}".format(
+                        total_num_steps, len(averageReward)*self.n_rollout_threads, train_infos["average_episode_rewards"], (end-start)))
                 self.log_train(train_infos, total_num_steps)
                 self.log_env(env_infos, total_num_steps)
 
