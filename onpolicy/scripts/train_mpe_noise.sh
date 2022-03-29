@@ -7,10 +7,10 @@ exp="check"
 seed_max=1
 scenario="simple_spread"  # simple_speaker_listener # simple_reference
 s="s3"
-e="e1"
-cuda=0
-noise=1.0
-noiseName=d10
+e="e3"
+cuda=3
+noise=4.0
+noiseName=d40
 
 echo "env is ${env}, scenario is ${scenario}, algo is ${algo}, exp is ${exp}, max seed is ${seed_max}"
 for seed in `seq ${seed_max}`;
