@@ -1,0 +1,37 @@
+/home/sas20048/code/mappo/onpolicy/envs/mpe/scenarios/__init__.py:1: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+wandb: Currently logged in as: susanbao (use `wandb login --relogin` to force relogin)
+wandb: Tracking run with wandb version 0.12.11
+wandb: Run data is saved locally in /home/sas20048/code/mappo/onpolicy/scripts/results/MPE/simple_reference/rmappo/check/wandb/run-20220328_205045-2u0me39l
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run rmappo_check_seed1
+wandb: ⭐️ View project at https://wandb.ai/susanbao/MPE
+wandb: 🚀 View run at https://wandb.ai/susanbao/MPE/runs/2u0me39l
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: \ 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: | 0.002 MB of 0.010 MB uploaded (0.000 MB deduped)wandb: / 0.002 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: - 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: \ 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: | 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: / 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: - 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: \ 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: | 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:           actor_grad_norm ▇▅▇▆▅▅▃▄▃▃▃▅▃▃▆▆▅▄▂▄▄▃▃▂▃█▆▂▁▂▄▃▂▂▂▅▅▃▃▂
+wandb: agent0/individual_rewards ▃▇▇▃▆▂▁▅▅▇▄▄▁▄▆▁▄▃▃▄▇▃▃▄▅▄▆▆▂▄▄▇▃█▄▆▇▃▅▇
+wandb: agent1/individual_rewards ▄▅▇▂▆▁▇▅▃▇▃▁▃█▄▄▄▃▅▄▂▃▆▆▃▃▆▆▅▆▃▆▄▅▅▅▃▃▄▆
+wandb:   average_episode_rewards ▁▆▇▄▃▅█▆▄▇▄▅▃▆▅▄▃▅▅▄▆▅▅▇▆▅▇▇▆▇▆▇▆▇▄▇▄▅▅▅
+wandb:          critic_grad_norm █▇▇▅▅▄▂▂▁▂▂▁▂▂▂▂▂▂▂▁▂▂▂▁▂▂▂▂▂▁▂▂▂▁▁▂▁▂▂▁
+wandb:              dist_entropy ██▆▃▁▃▂▂▂▂▂▂▂▂▁▁▁▁▂▁▁▁▁▁▂▂▂▁▂▂▂▂▂▃▃▂▂▂▂▂
+wandb:               policy_loss ▁▂▃▃▅█▄▃▃▃▃▂▂▃▃▃▃▃▁▂▄▂▃▃▄▆▅▃▄▃▃▆▄▅▃▄▃▃▄▃
+wandb:                     ratio ▃▃▃▃▃▄▂▃▂▂▃▂▂▃▃▃▃▂▂▁▄▂▂▂▂▃▃▃▃▂▂▃▃▃▃▃▃▃▃█
+wandb:                value_loss ▃▃▁▂▁▄▅▆▇█▇█▇▇▇▇▇▆▇▆▆▆▆▆▆▆▆▆▅▅▅▃▃▂▄▄▄▅▆▆
+wandb: 
+wandb: Run summary:
+wandb:           actor_grad_norm 0.06748
+wandb: agent0/individual_rewards -0.7382
+wandb: agent1/individual_rewards -0.81087
+wandb:   average_episode_rewards -92.36357
+wandb:          critic_grad_norm 0.05938
+wandb:              dist_entropy 0.58205
+wandb:               policy_loss 0.01137
+wandb:                     ratio 1.02649
+wandb:                value_loss 0.73942
+wandb: 
+wandb: Synced rmappo_check_seed1: https://wandb.ai/susanbao/MPE/runs/2u0me39l
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 2 other file(s)
+wandb: Find logs at: ./results/MPE/simple_reference/rmappo/check/wandb/run-20220328_205045-2u0me39l/logs

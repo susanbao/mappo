@@ -1,0 +1,9 @@
+/home/sas20048/code/mappo/onpolicy/envs/mpe/scenarios/__init__.py:1: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+wandb: Currently logged in as: susanbao (use `wandb login --relogin` to force relogin)
+wandb: Tracking run with wandb version 0.12.11
+wandb: Run data is saved locally in /home/sas20048/code/mappo/onpolicy/scripts/results/MPE/simple_reference/rmappo/check/wandb/run-20220328_204421-1n9bitb7
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run rmappo_check_seed1
+wandb: ⭐️ View project at https://wandb.ai/susanbao/MPE
+wandb: 🚀 View run at https://wandb.ai/susanbao/MPE/runs/1n9bitb7
