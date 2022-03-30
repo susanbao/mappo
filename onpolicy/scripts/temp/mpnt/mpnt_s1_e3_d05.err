@@ -2,36 +2,36 @@
   import imp
 wandb: Currently logged in as: susanbao (use `wandb login --relogin` to force relogin)
 wandb: Tracking run with wandb version 0.12.11
-wandb: Run data is saved locally in /home/sas20048/code/mappo/onpolicy/scripts/results/MPE/simple_reference/rmappo/check/wandb/run-20220328_204816-163hho7n
+wandb: Run data is saved locally in /home/sas20048/code/mappo/onpolicy/scripts/results/MPE/simple_reference/rmappo/check/wandb/run-20220329_220358-1bu7jm0c
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run rmappo_check_seed1
+wandb: Syncing run rmappo_check_seed100
 wandb: ⭐️ View project at https://wandb.ai/susanbao/MPE
-wandb: 🚀 View run at https://wandb.ai/susanbao/MPE/runs/163hho7n
+wandb: 🚀 View run at https://wandb.ai/susanbao/MPE/runs/1bu7jm0c
 wandb: Waiting for W&B process to finish... (success).
-wandb: - 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: \ 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: | 0.002 MB of 0.298 MB uploaded (0.000 MB deduped)wandb: / 0.002 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: - 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: \ 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: | 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: / 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: - 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: \ 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: | 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: - 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: \ 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: | 0.002 MB of 0.297 MB uploaded (0.000 MB deduped)wandb: / 0.002 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: - 0.158 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: \ 0.158 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: | 0.158 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: / 0.158 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: - 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: \ 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: | 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: / 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: - 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: \ 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb: | 0.301 MB of 0.301 MB uploaded (0.000 MB deduped)wandb:                                                                                
 wandb: 
 wandb: Run history:
-wandb:           actor_grad_norm ▆▅▇▅▅▄▅█▆▆▄▃▄▄▅█▅▅▄▃▃▁▂▂▅▃▁▂▂▃▂▁▄▇▄▃▁▂▂▃
-wandb: agent0/individual_rewards ▆█▇▇██▆▃▁▄▅▅▆▆▆▇▇▇▇▇▇█▇▇▆▇█▇▇▇██▇▇▇▇▇▇▇█
-wandb: agent1/individual_rewards ▇▇█▇██▆▅▁▄▅▇▆▇▇█▇▇▇▇▇████▇█▇██▇█▇▇█▇▇▇██
-wandb:   average_episode_rewards ▂▆▇▆██▆▄▁▃▅▅▆▇▇▇▆▆▇▇▆▇▇▇▆▇████▇████▇▇█▇▇
-wandb:          critic_grad_norm █▆█▅▃▃▄▆▆▄▃▃▃▃▂▂▂▁▂▂▂▂▁▁▁▁▁▁▂▂▂▂▁▂▁▁▁▂▁▁
-wandb:              dist_entropy ██▆▅▇▆▇▆▆▅▅▄▄▅▅▅▄▃▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:               policy_loss ▁▁▄▄▆▄▃▅▄▅▄▆█▄▆▆▅▅▆▇▆▇▆▇▆▆▆▇▆▅▆▆▆▆▆▆▆▆▄▇
-wandb:                     ratio ▅▁▃▄▁▅▅▃▇▄▃█▅▂▅▃▃▅▅▃▅▅▃▄▄▇▄▅▃▇▄▄▆▅▇▄▃▄▄▂
-wandb:                value_loss ▅▄▁▂▁▂▆█▆▄▄▁▁▃▂▁▂▁▂▂▂▂▂▂▂▃▃▃▃▃▃▃▄▄▃▄▄▄▅▅
+wandb:           actor_grad_norm ▇█▇▇▆▇▄▆▇▂▆▄▂▃▅▄▃▅▃▄▃▅▄▃▄▃▄▃▂▁▁▄▂▃▂▂▁▃▂▃
+wandb: agent0/individual_rewards ▇███▆▁▆▇▇▆▇▇▇▇▇██▇▇▇▇██▇█▇▇▇████████████
+wandb: agent1/individual_rewards ▇███▆▁▆▇▇▇▇▆▇▇▇██▇█▇▇▇█▇▇▇▇▇█▇██████████
+wandb:   average_episode_rewards ▅▇▇▇▆▁▅▇▇▆▇▆▆▇▇▇▇▇▇▇▇▇▇▆▇▇▇▇▇▇▇▇██████▇█
+wandb:          critic_grad_norm ▇▄▂▂▄█▃▃▃▂▂▂▁▁▂▁▂▁▁▂▂▁▂▂▁▁▂▂▁▁▁▁▂▁▁▁▁▁▂▁
+wandb:              dist_entropy ██▇▆▆▅▂▂▃▂▂▂▁▁▁▁▂▂▂▂▂▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁
+wandb:               policy_loss ▁▂▂▄▂▂▂▄▄▃▃▃▄▅▄▅▄▃▃▅▅▆▄▅▅▄▃▅▅▆▅▄▆█▆▅▆▆▄▅
+wandb:                     ratio ▂▅▃▃▄▄▄▃▆▂▃▅▅▁▃▄▅▅▅▄▆▆▆▄▃▃▃▄▆▂▂▄▃▇▃▄█▅▅▄
+wandb:                value_loss ▃▁▂▁▃█▂▁▁▁▂▁▁▂▁▁▂▁▂▁▁▂▂▂▂▂▂▃▂▂▂▂▂▂▂▂▃▂▂▂
 wandb: 
 wandb: Run summary:
-wandb:           actor_grad_norm 0.06986
-wandb: agent0/individual_rewards -0.40695
-wandb: agent1/individual_rewards -0.44437
-wandb:   average_episode_rewards -66.84436
-wandb:          critic_grad_norm 0.05389
-wandb:              dist_entropy 0.68029
-wandb:               policy_loss 0.02578
-wandb:                     ratio 0.99648
-wandb:                value_loss 0.31885
+wandb:           actor_grad_norm 0.06736
+wandb: agent0/individual_rewards -0.51769
+wandb: agent1/individual_rewards -0.52291
+wandb:   average_episode_rewards -66.64182
+wandb:          critic_grad_norm 0.04324
+wandb:              dist_entropy 0.61443
+wandb:               policy_loss 0.0267
+wandb:                     ratio 1.00069
+wandb:                value_loss 0.25275
 wandb: 
-wandb: Synced rmappo_check_seed1: https://wandb.ai/susanbao/MPE/runs/163hho7n
+wandb: Synced rmappo_check_seed100: https://wandb.ai/susanbao/MPE/runs/1bu7jm0c
 wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 2 other file(s)
-wandb: Find logs at: ./results/MPE/simple_reference/rmappo/check/wandb/run-20220328_204816-163hho7n/logs
+wandb: Find logs at: ./results/MPE/simple_reference/rmappo/check/wandb/run-20220329_220358-1bu7jm0c/logs

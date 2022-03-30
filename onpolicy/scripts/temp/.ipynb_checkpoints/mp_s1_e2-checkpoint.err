@@ -1,0 +1,24 @@
+/home/sas20048/code/mappo/onpolicy/envs/mpe/scenarios/__init__.py:1: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+wandb: Currently logged in as: susanbao (use `wandb login --relogin` to force relogin)
+wandb: Tracking run with wandb version 0.12.11
+wandb: Run data is saved locally in /home/sas20048/code/mappo/onpolicy/scripts/results/MPE/simple_reference/rmappo/check/wandb/run-20220329_193131-9w8an7ju
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run rmappo_check_seed10
+wandb: ⭐️ View project at https://wandb.ai/susanbao/MPE
+wandb: 🚀 View run at https://wandb.ai/susanbao/MPE/runs/9w8an7ju
+Traceback (most recent call last):
+  File "train/train_mpe.py", line 167, in <module>
+    main(sys.argv[1:])
+  File "train/train_mpe.py", line 151, in main
+    runner = Runner(config)
+  File "/home/sas20048/code/mappo/onpolicy/runner/shared/mpe_runner.py", line 22, in __init__
+    self.X = TruncatedNormal(std = self.noise_std)
+  File "/home/sas20048/code/mappo/onpolicy/runner/shared/mpe_runner.py", line 12, in TruncatedNormal
+    X = stats.truncnorm((lower - mu) / sigma, (upper - mu) / sigma, loc=mu, scale=sigma)
+ZeroDivisionError: float division by zero
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: - 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: \ 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: | 0.002 MB of 0.002 MB uploaded (0.000 MB deduped)wandb: / 0.002 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: - 0.002 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: \ 0.005 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: | 0.007 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: / 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: - 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: \ 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: | 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: / 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: - 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb: \ 0.008 MB of 0.008 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: Synced rmappo_check_seed10: https://wandb.ai/susanbao/MPE/runs/9w8an7ju
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./results/MPE/simple_reference/rmappo/check/wandb/run-20220329_193131-9w8an7ju/logs

@@ -2,8 +2,8 @@
   import imp
 wandb: Currently logged in as: susanbao (use `wandb login --relogin` to force relogin)
 wandb: Tracking run with wandb version 0.12.11
-wandb: Run data is saved locally in /home/sas20048/code/mappo/onpolicy/scripts/results/MPE/simple_spread/rmappo/check/wandb/run-20220329_194643-pu31a06a
+wandb: Run data is saved locally in /home/sas20048/code/mappo/onpolicy/scripts/results/MPE/simple_spread/rmappo/check/wandb/run-20220329_194017-3k09xjs8
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run rmappo_check_seed10
+wandb: Syncing run rmappo_check_seed100
 wandb: ⭐️ View project at https://wandb.ai/susanbao/MPE
-wandb: 🚀 View run at https://wandb.ai/susanbao/MPE/runs/pu31a06a
+wandb: 🚀 View run at https://wandb.ai/susanbao/MPE/runs/3k09xjs8
